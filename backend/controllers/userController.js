@@ -2,7 +2,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const asyncHandler = require('express-async-handler');
 const User = require('../models/userModel');
-const { use } = require('../routes/goalRoutes');
+const { use } = require('../routes/tripRoutes');
 
 
 // Register a New User
